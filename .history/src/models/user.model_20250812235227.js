@@ -29,7 +29,7 @@ class User extends Model {
         allowNull: false 
       },
       role: {
-        type: DataTypes.ENUM('admin', 'teamLead', 'employee'),
+        type: DataTypes.ENUM('admin', 'team-lead', 'employee'),
         defaultValue: 'member',
       },
       avatarUrl: { 
